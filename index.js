@@ -33,3 +33,6 @@ let y = "BEneath"
 console.log(x.toLocaleLowerCase())
 console.log(y.toLocaleLowerCase())
 //3.TITleCASE
+let d="A beautiful wedding";
+    d=d.split(" ").map(([firstChar,...rest])=>firstChar.toUpperCase()+rest.join("").toLowerCase()).join(" ");
+       console.log(d);
